@@ -1,0 +1,30 @@
+{
+  "name": "ping_checker_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "tsc --project tsconfig.json",
+    "run_server": "npm-run-all build start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/node-telegram-bot-api": "^0.57.1",
+    "nodemon": "^2.0.18",
+    "npm-run-all": "^4.1.5",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "http": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-telegram-bot-api": "^0.58.0",
+    "query-string": "^7.1.1"
+  }
+}

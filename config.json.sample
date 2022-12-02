@@ -1,0 +1,17 @@
+{
+  "telegram": {
+    "bot_token": "<tg_bot_token_here>"
+  },
+  "ping_checker": {
+    "net_name": "<ip_or_server_to_ping>",
+    "interval_ms": 60000,
+    "timeout_ms": 150000,
+    "method": "<subproc-ping|service-2ip.ua>"
+  },
+  "self_alive_checker": {
+    "enabled": true,
+    "url": "<url_where_app_is_working>",
+    "self_server_port": 0,
+    "interval_ms": 20000
+  }
+}
